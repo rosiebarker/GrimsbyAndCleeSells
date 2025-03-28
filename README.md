@@ -1,14 +1,15 @@
 # GrimsbyAndCleeSells
-Fictional E-Commerce Website using PHP
+Fictional E-Commerce Website using PHP  
+  
 The goal was to create as many working features as possible. 
 
 ## **Working Features**
 - User Registration & Login
-- Product Listing with Images
+- Product Listing page with Images
 - Add to basket
-- Admin Panel for Managing Products
+- Product management 
+- Delete and edit products
 
-## **Installation**
-### **Requirements**
+## **Requirements**
 - [XAMPP](https://www.apachefriends.org/) (Apache, MySQL, PHP)
 - A MySQL database
