@@ -1,0 +1,42 @@
+/* Override the bootstrap default dropdown style */
+.accordion-button {
+    background-color: hsl(0, 0%, 12%);
+    color: #ffffff;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    border-color: white;
+    outline: none; /* Remove the default focus outline */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: hsl(0, 0%, 12%);
+    color: #ffffff;
+    border-color: rgb(100, 100, 100);
+}
+
+/* Style the dropdown arrow */
+.accordion-button::after {
+    content: '\2228';
+    font-size: 1em;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: transform 1s ease;
+    border-color: rgb(100, 100, 100);
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/* Override focus styles */
+.accordion-button:focus {
+    box-shadow: none; /* Remove the default focus box-shadow */
+    border-color: rgb(100, 100, 100);
+}
+
+.footerlinks {
+    color: white;
+}
